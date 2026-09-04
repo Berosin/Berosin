@@ -22,7 +22,12 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
+        run: |
+          pip install -r scripts/requirements.txt
+          echo "---- installed packages (sanity check) ----"
+          pip show onnxruntime rembg opencv-python-headless 2>&1 || true
+          echo "---- onnxruntime providers ----"
+          python -c "import onnxruntime; print(onnxruntime.get_available_providers())"
 
       - name: Fetch current GitHub avatar
         run: python scripts/fetch_avatar.py Berosin -o scripts/source-photo.png

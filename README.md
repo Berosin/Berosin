@@ -1,9 +1,3 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=BEROSIN%20BF&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-stack%20Developer%20%7C%20AI%20%2B%20Web3%20Builder&descAlignY=58&descSize=18" width="100%"/>
-
-</div>
-
 <pre align="center">
 ██████╗ ███████╗██████╗  ██████╗ ███████╗██╗███╗   ██╗
 ██╔══██╗██╔════╝██╔══██╗██╔═══██╗██╔════╝██║████╗  ██║
@@ -15,7 +9,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=780&height=90&lines=Full-stack+developer+building+practical+products;across+AI%2C+cloud%2C+and+modern+web+technologies.;Currently+shipping%3A+Relivio+%E2%80%94+AI+%2B+Web3+relief+platform)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=780&height=70&lines=Full-stack+developer+building+practical+products;across+AI%2C+Web3%2C+and+cloud-native+systems.)](https://git.io/typing-svg)
 
 <a href="https://github.com/Berosin"><img src="https://img.shields.io/github/followers/Berosin?label=Follow&style=social" /></a>
 <a href="https://linkedin.com/in/berosin"><img src="https://img.shields.io/badge/LinkedIn-Berosin-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
@@ -49,11 +43,11 @@ whoami:
   name: "Berosin BF"
   role: "Full-stack Developer"
   focus: ["AI / RAG", "Web3 & Smart Contracts", "Cloud-native apps", "Mobile"]
-  currently_building: "Relivio — blockchain-governed disaster relief + explainable AI"
+  approach: "Ship end-to-end — frontend to smart contract to inference pipeline"
   fun_fact: "I turn photos into ASCII art for fun (see above ⬆️)"
 ```
 
-- 🔭 Currently working on **Relivio** — a transparent, community-governed emergency relief platform combining smart-contract treasury flows, DAO voting, and an explainable AI risk-assessment service.
+- 🧩 Enjoy taking ambitious ideas — DAO governance, explainable AI, disaster-relief tech — from concept to a working product.
 - 🧠 Deep into **RAG pipelines** and applied AI — from cloud knowledge assistants to multilingual financial-literacy bots.
 - 🌐 Comfortable across the stack: React/Next.js frontends, Node/Spring Boot/FastAPI backends, Firebase/Supabase/MongoDB/MySQL data layers.
 - ⛓️ Exploring Ethereum, Foundry, wagmi/viem for on-chain applications.

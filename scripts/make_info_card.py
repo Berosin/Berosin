@@ -21,8 +21,8 @@ import argparse
 DATA = {
     "user": "berosin@github",
     "rows": [
-        ("Now", "Relivio — DAO-governed disaster relief + explainable AI"),
-        ("Prev", "ANORA — RAG-based cloud knowledge assistant"),
+        ("Role", "Full-stack Developer — AI, Web3 & Cloud"),
+        ("Interests", "DAO governance · Explainable AI · RAG pipelines"),
         ("Stack", "React/Next.js · Node/FastAPI/Spring · Ethereum/Foundry"),
         ("Highlights", "16 repos · Full-stack + AI + Web3 builder"),
     ],
