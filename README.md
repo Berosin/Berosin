@@ -19,40 +19,15 @@
 
 <br/>
 
-## 📸 A Human, Rendered in Text
-
 <div align="center">
 
-<img src="avi-ascii.svg" width="420" alt="ASCII portrait that types itself in, row by row" />
+<img src="avi-ascii.svg" width="460" alt="ASCII portrait, rendered as a terminal session" />
 
 <br/><br/>
 
-<img src="info-card.svg" width="420" alt="neofetch-style info card" />
-
-<br/>
-<sub>↑ yes, that's really me — every glyph above is a pixel of my own photo, and it types itself in once per page load 👋</sub>
+<img src="info-card.svg" width="460" alt="neofetch-style info card" />
 
 </div>
-
-<br/>
-
-## 👨‍💻 About Me
-
-```yaml
-whoami:
-  name: "Berosin BF"
-  role: "Full-stack Developer"
-  focus: ["AI / RAG", "Web3 & Smart Contracts", "Cloud-native apps", "Mobile"]
-  approach: "Ship end-to-end — frontend to smart contract to inference pipeline"
-  fun_fact: "I turn photos into ASCII art for fun (see above ⬆️)"
-```
-
-- 🧩 Enjoy taking ambitious ideas — DAO governance, explainable AI, disaster-relief tech — from concept to a working product.
-- 🧠 Deep into **RAG pipelines** and applied AI — from cloud knowledge assistants to multilingual financial-literacy bots.
-- 🌐 Comfortable across the stack: React/Next.js frontends, Node/Spring Boot/FastAPI backends, Firebase/Supabase/MongoDB/MySQL data layers.
-- ⛓️ Exploring Ethereum, Foundry, wagmi/viem for on-chain applications.
-- 📱 Also build cross-platform mobile apps with Flutter and native Android.
-- 💬 Ask me about: RAG architectures, DAO governance patterns, or shipping full-stack MVPs fast.
 
 <br/>
 
@@ -80,87 +55,17 @@ whoami:
 
 <sub>**AI & Web3**</sub>
 <br/>
-<img src="https://skillicons.dev/icons?i=solidity,git,github,figma&theme=dark" />
+<img src="https://skillicons.dev/icons?i=solidity&theme=dark" />
 <br/>
 <sub><i>+ RAG pipelines &amp; IBM Watsonx for applied AI &nbsp;·&nbsp; Foundry &amp; wagmi/viem for on-chain dev</i></sub>
 
+<br/><br/>
+
+<sub>**Tools**</sub>
+<br/>
+<img src="https://skillicons.dev/icons?i=git,github,figma&theme=dark" />
+
 </div>
-
-<br/>
-
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%">
-
-### ⭐ [Relivio](https://github.com/Berosin/Relivio)
-Transparent, community-governed emergency relief platform combining blockchain governance with explainable AI.
-
-`Next.js` `TypeScript` `Ethereum` `Foundry` `FastAPI` `AI`
-
-</td>
-<td width="50%">
-
-### ⭐ [ANORA](https://github.com/Berosin/ANORA)
-AI-powered cloud knowledge intelligence platform using RAG for grounded answers, summaries, and comparisons.
-
-`React` `Node.js` `FastAPI` `MongoDB` `RAG`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### ⭐ [QwikQ](https://github.com/Berosin/QwikQ)
-Smart queue management app — book tokens remotely and track your position in real time.
-
-`Flutter` `Dart` `Supabase`
-
-</td>
-<td width="50%">
-
-### ⭐ [SafeSpend AI](https://github.com/Berosin/SafeSpend-AI)
-Multilingual AI assistant for digital financial literacy, powered by RAG and IBM Watsonx.
-
-`Python` `RAG` `Watsonx` `AI`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### ⭐ [Overclock '26](https://github.com/Berosin/Overclock-26)
-Manga-inspired, eight-arc tech symposium website with an interactive visual experience.
-
-`React` `Vite` `JavaScript`
-
-</td>
-<td width="50%">
-
-### ⭐ [CloudVault](https://github.com/Berosin/CloudVault)
-Full-stack cloud file storage app for uploading, sharing, and managing files.
-
-`Spring Boot` `Firebase` `Supabase`
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>📂 More repositories</b></summary>
-<br/>
-
-- 🌱 [smart-crop-health-monitor](https://github.com/Berosin/smart-crop-health-monitor)
-- 🔎 [trace](https://github.com/Berosin/trace)
-- 💳 [Credit-Card-Processing-System](https://github.com/Berosin/Credit-Card-Processing-System)
-- 🎨 [Portfolio-animation](https://github.com/Berosin/Portfolio-animation)
-- 🏋️ [gym-management-system](https://github.com/Berosin/gym-management-system)
-- 🛒 [emart-inventory-management](https://github.com/Berosin/emart-inventory-management)
-- 📝 [microblog](https://github.com/Berosin/microblog)
-- 🧩 [Leetcode](https://github.com/Berosin/Leetcode)
-
-</details>
 
 <br/>
 
@@ -171,7 +76,7 @@ Full-stack cloud file storage app for uploading, sharing, and managing files.
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=Berosin&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Berosin&layout=compact&theme=tokyonight&hide_border=true" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Berosin&theme=tokyonight&hide_border=true" />
+<img src="https://streak-stats.demolab.com/?user=Berosin&theme=tokyonight&hide_border=true" />
 
 <img src="https://github-profile-trophy.vercel.app/?username=Berosin&theme=tokyonight&no-frame=true&row=1&column=6" />
 
@@ -185,7 +90,7 @@ Full-stack cloud file storage app for uploading, sharing, and managing files.
 
 Two hand-rolled Python scripts turn a plain photo into the self-typing SVG art above — no external ASCII-art service involved.
 
-**Setup** — `scripts/requirements.txt` lists everything needed. The daily automation only needs `requests` + `beautifulsoup4`; the portrait libraries (`pillow`, `numpy`, `opencv-python`, `rembg`) only matter when you swap in a new photo:
+**Setup** — `scripts/requirements.txt` lists everything needed. The daily automation only needs `requests` + `beautifulsoup4`; the portrait libraries (`pillow`, `numpy`, `opencv-python-headless`, `onnxruntime`, `rembg`) only matter when you swap in a new photo:
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
@@ -198,13 +103,13 @@ pip install -r scripts/requirements.txt
 python scripts/prep_photo.py source-photo.jpg
 ```
 
-**Step 2 — Convert to a self-typing SVG** (`scripts/make_ascii_svg.py`). The prepped image is downsampled to a ~100×53 character grid; each pixel's brightness picks a glyph from a density ramp (`" .`:-=+*cs#%@"`, bright → sparse, dark → dense). It's rendered **monochrome** — one light-gray fill, no per-character rainbow — and each row wipes in left-to-right with a small cursor block, staggered top-to-bottom, printing once and freezing (SMIL, no loop).
+**Step 2 — Convert to a self-typing, terminal-framed SVG** (`scripts/make_ascii_svg.py`). The prepped image is downsampled to an ~80-column character grid (rows auto-computed from the photo's aspect ratio so nothing gets stretched); each pixel's brightness picks a glyph from a density ramp (`" .`:-=+*cs#%@"`, bright → sparse, dark → dense). It's rendered **monochrome** — one light-gray fill, no per-character rainbow — wrapped in a terminal-window card (title bar, traffic-light dots, a closing `whoami` prompt line), and each row wipes in left-to-right with a small cursor block, staggered top-to-bottom, printing once and freezing (SMIL, no loop).
 
 ```bash
-python scripts/make_ascii_svg.py source-photo-prepped.png -o avi-ascii.svg
+python scripts/make_ascii_svg.py source-photo-prepped.png -o avi-ascii.svg --whoami-name "Berosin BF"
 ```
 
-**Step 3 — Build the neofetch-style info card** (`scripts/make_info_card.py`). A small hand-authored SVG with a title bar and `Now` / `Prev` / `Stack` / `Highlights` rows that fade + slide in on a stagger — the story the stats widgets above can't tell. Set `STATIC=1` for a frozen frame (handy for local previews).
+**Step 3 — Build the neofetch-style info card** (`scripts/make_info_card.py`). A small hand-authored SVG with a title bar and `Role` / `Interests` / `Stack` / `Highlights` rows that fade + slide in on a stagger — the story the stats widgets above can't tell. Set `STATIC=1` for a frozen frame (handy for local previews).
 
 ```bash
 python scripts/make_info_card.py -o info-card.svg
@@ -234,7 +139,7 @@ Commit `avi-ascii.svg` and `info-card.svg` to the repo root and the README picks
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Berosin&theme=tokyo-night&hide_border=true" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Berosin&theme=tokyo-night&hide_border=true&days=61" width="100%"/>
 
 </div>
 
@@ -256,6 +161,6 @@ Commit `avi-ascii.svg` and `info-card.svg` to the repo root and the README picks
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,50:4A00E0,100:00C6FF&height=120&section=footer"/>
 
 </div>

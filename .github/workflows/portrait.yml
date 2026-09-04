@@ -36,7 +36,7 @@ jobs:
         run: python scripts/prep_photo.py scripts/source-photo.png -o scripts/source-photo-prepped.png
 
       - name: Regenerate ASCII SVG
-        run: python scripts/make_ascii_svg.py scripts/source-photo-prepped.png -o avi-ascii.svg --cols 80
+        run: python scripts/make_ascii_svg.py scripts/source-photo-prepped.png -o avi-ascii.svg --cols 80 --user-at-host "berosin@github" --run-cmd "./portrait.sh" --whoami-name "Berosin BF"
 
       - name: Commit if changed
         run: |
