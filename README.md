@@ -6,11 +6,11 @@
 
 <pre align="center">
 ██████╗ ███████╗██████╗  ██████╗ ███████╗██╗███╗   ██╗
-██╔══██╗██╔════╝██╔══██╗██╔══██╗██╔════╝██║████╗  ██║
-██████╔╝█████╗  ██████╔╝███████║███████╗██║██╔██╗ ██║
-██╔══██╗██╔══╝  ██╔══██╗██╔══██║╚════██║██║██║╚██╗██║
-██████╔╝███████╗██████╔╝██║  ██║███████║██║██║ ╚████║
-╚═════╝ ╚══════╝╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═══╝
+██╔══██╗██╔════╝██╔══██╗██╔═══██╗██╔════╝██║████╗  ██║
+██████╔╝█████╗  ██████╔╝██║   ██║███████╗██║██╔██╗ ██║
+██╔══██╗██╔══╝  ██╔══██╗██║   ██║╚════██║██║██║╚██╗██║
+██████╔╝███████╗██║  ██║╚██████╔╝███████║██║██║ ╚████║
+╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝
 </pre>
 
 <div align="center">
@@ -29,52 +29,14 @@
 
 <div align="center">
 
-```
-                               .                                      
-                     .:-+++#####*+=:.                                 
-                   :*@@@@@@@@@@@@@@@%-.                               
-                  -@@@@@@@@@@@@@@@@@@@#:                              
-                .+@@@@@@@@@@@@@@@@@@@@@@=                             
-               .*@@@@@@@@@@@@@@@@@@@@@@@%.                            
-               =@@@@@%**###**+*%#%@@@@@@@:                            
-               .%@@@#*++======+*###%@@@@#.                            
-                :%@#**++==-=+*###%%#@@@%.                             
-                 :%%%###*+=+*####%%#%@#:                              
-                  *#%%%##*++*#*%%%###@+=.                             
-                .-*##****+=+*+++++**#%**.                             
-                .##+===+*++***+===+*%%*+                              
-                 +#+=+*###*#####*+*#%%*-                              
-                 -%#*#@%*+=++#%%#*##@+..                              
-                 .+%#*##*+==+****##%%.                                
-                  .#%##*+***++**#%%@*-:.                              
-                   :#@%#**####%@@@@@%%*:.                             
-                    .=%@@@@@@@@@@@%%@%:.::.....                       
-                   ..:#%@@@@@@@%#*#%%-.:.::.:::....                   
-                ...:-=%%%%%%%##*+*%*:.:..::.::::::::..                
-            ...:::::::+@####**++**+:.....:..:.::::..::...             
-          ..:::::::-+--+#****++++==+=-::.:.:.:::.....::::.            
-         .::::::::-----=-+***+=--=-::-:::.:..::......:.:::.           
-        ..::::::.:::.:::::=*+=---:..:....:..::.......::..::.          
-        ::.:::...:::..:::::=-::...::....:..::.....:.::..:.::.         
-       .::.:::...:::..:::::.....:::........:......:.::.::.::..        
-      ..:..:::..::::...:::.....:::................:.:..:.::.:.        
-      .::..:::..:::....::......:::.......................:..:..       
-      .:::.:::..:::..:..:.....:::::::::.............:...:..:..:.      
-      .:::.:::..:::.....::.::::....................::..:......:.      
-     ..:::.:::..::......::.:::::...................::.::..:..::.      
-     ..:::.::::.:.......::::::::...................-:::......::..     
-     .:::::::::...........::::::.:........:.......:-::.......:...     
-     .::::::::...........::.::::..:......:::......-::.......:::...    
-     .:::::::::.............::::..::....::::.....---:.::::.::::...    
-     .:::::::...:...........:::....:...::::.....:-:::::::..:::.....   
-     ..:::::::..:..........:::.....:...:::......--.:-::...::.......   
-    ..::::::.:::......:...:::......:..::::.....:-----:..............  
-    ..::::::.:::...:..:...:::::...::..:::......:-==-:...............  
-    ..:::::::::....:..:...........::..:::......:===-.......:::::::::. 
-    .::::::::::...:...:.........::::..:::......:-==:..:::::::..::=:.. 
-```
+<img src="avi-ascii.svg" width="700" alt="ASCII portrait that types itself in, row by row" />
 
-<sub>↑ yes, that's really me — every character above is a pixel of my own photo 👋</sub>
+<br/><br/>
+
+<img src="info-card.svg" width="560" alt="neofetch-style info card" />
+
+<br/>
+<sub>↑ yes, that's really me — every glyph above is a pixel of my own photo, and it types itself in once per page load 👋</sub>
 
 </div>
 
@@ -104,43 +66,29 @@ whoami:
 
 <div align="center">
 
-**Languages**
+<sub>**Languages**</sub>
+<br/>
+<img src="https://skillicons.dev/icons?i=js,ts,py,java,dart,php,html,css,c&theme=dark" />
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+<br/><br/>
 
-**Frontend**
+<sub>**Frontend & Frameworks**</sub>
+<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,vite,nodejs,spring,fastapi&theme=dark" />
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+<br/><br/>
 
-**Backend**
+<sub>**Data & Cloud**</sub>
+<br/>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,supabase&theme=dark" />
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+<br/><br/>
 
-**Data & Cloud**
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
-**AI / Web3**
-
-![RAG](https://img.shields.io/badge/RAG-8A2BE2?style=for-the-badge&logo=OpenAI&logoColor=white)
-![Watsonx](https://img.shields.io/badge/IBM%20Watsonx-052FAD?style=for-the-badge&logo=ibm&logoColor=white)
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Foundry](https://img.shields.io/badge/Foundry-000000?style=for-the-badge&logo=ethereum&logoColor=white)
+<sub>**AI & Web3**</sub>
+<br/>
+<img src="https://skillicons.dev/icons?i=solidity,git,github,figma&theme=dark" />
+<br/>
+<sub><i>+ RAG pipelines &amp; IBM Watsonx for applied AI &nbsp;·&nbsp; Foundry &amp; wagmi/viem for on-chain dev</i></sub>
 
 </div>
 
@@ -237,6 +185,43 @@ Full-stack cloud file storage app for uploading, sharing, and managing files.
 
 <br/>
 
+<details>
+<summary><b>🧪 How the portrait &amp; info card are built (click to expand)</b></summary>
+<br/>
+
+Two hand-rolled Python scripts turn a plain photo into the self-typing SVG art above — no external ASCII-art service involved.
+
+**Setup** — `scripts/requirements.txt` lists everything needed. The daily automation only needs `requests` + `beautifulsoup4`; the portrait libraries (`pillow`, `numpy`, `opencv-python`, `rembg`) only matter when you swap in a new photo:
+
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -r scripts/requirements.txt
+```
+
+**Step 1 — Prep the photo** (`scripts/prep_photo.py`). A flatly-lit face converts to a dark, unreadable blob, so this script: removes the background with `rembg`, boosts local contrast with OpenCV's CLAHE, then composites onto pure white so the background maps to blank space in the ASCII ramp.
+
+```bash
+python scripts/prep_photo.py source-photo.jpg
+```
+
+**Step 2 — Convert to a self-typing SVG** (`scripts/make_ascii_svg.py`). The prepped image is downsampled to a ~100×53 character grid; each pixel's brightness picks a glyph from a density ramp (`" .`:-=+*cs#%@"`, bright → sparse, dark → dense). It's rendered **monochrome** — one light-gray fill, no per-character rainbow — and each row wipes in left-to-right with a small cursor block, staggered top-to-bottom, printing once and freezing (SMIL, no loop).
+
+```bash
+python scripts/make_ascii_svg.py source-photo-prepped.png -o avi-ascii.svg
+```
+
+**Step 3 — Build the neofetch-style info card** (`scripts/make_info_card.py`). A small hand-authored SVG with a title bar and `Now` / `Prev` / `Stack` / `Highlights` rows that fade + slide in on a stagger — the story the stats widgets above can't tell. Set `STATIC=1` for a frozen frame (handy for local previews).
+
+```bash
+python scripts/make_info_card.py -o info-card.svg
+```
+
+Commit `avi-ascii.svg` and `info-card.svg` to the repo root and the README picks them up automatically.
+
+</details>
+
+<br/>
+
 ## 🐍 Contribution Snake
 
 <div align="center">
@@ -263,8 +248,9 @@ Full-stack cloud file storage app for uploading, sharing, and managing files.
 
 ## 🤝 Connect With Me
 
-<a href="https://linkedin.com/in/berosin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://github.com/Berosin"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://linkedin.com/in/berosin"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="50"/></a>
+&nbsp;
+<a href="https://github.com/Berosin"><img src="https://skillicons.dev/icons?i=github&theme=dark" height="50"/></a>
 
 <br/><br/>
 
