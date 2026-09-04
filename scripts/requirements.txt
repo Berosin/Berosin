@@ -3,5 +3,5 @@ beautifulsoup4==4.12.3
 # portrait-only (not needed by the daily workflow):
 pillow
 numpy
-opencv-python
+opencv-python-headless
 rembg
