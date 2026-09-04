@@ -29,11 +29,11 @@
 
 <div align="center">
 
-<img src="avi-ascii.svg" width="700" alt="ASCII portrait that types itself in, row by row" />
+<img src="avi-ascii.svg" width="420" alt="ASCII portrait that types itself in, row by row" />
 
 <br/><br/>
 
-<img src="info-card.svg" width="560" alt="neofetch-style info card" />
+<img src="info-card.svg" width="420" alt="neofetch-style info card" />
 
 <br/>
 <sub>↑ yes, that's really me — every glyph above is a pixel of my own photo, and it types itself in once per page load 👋</sub>
@@ -217,6 +217,8 @@ python scripts/make_info_card.py -o info-card.svg
 ```
 
 Commit `avi-ascii.svg` and `info-card.svg` to the repo root and the README picks them up automatically.
+
+**Prefer it fully automatic?** `.github/workflows/portrait.yml` runs this same pipeline weekly (and on-demand from the Actions tab), pulling your avatar directly from `https://github.com/<username>.png` — GitHub's live avatar URL — via `scripts/fetch_avatar.py`. Change your profile picture on GitHub and the portrait updates itself on the next run, no manual re-upload needed.
 
 </details>
 

@@ -3,9 +3,10 @@
 make_ascii_svg.py — convert a prepped (grayscale, white-background) portrait
 into a monochrome, self-typing ASCII-art SVG.
 
-The prepped image is downsampled to a character grid (~100x53), and each
-pixel's brightness picks a glyph from a density ramp — sparse characters
-for bright areas, dense ones for dark:
+The prepped image is downsampled to a character grid (~80 columns wide,
+rows auto-computed from the source photo's aspect ratio so nothing gets
+stretched), and each pixel's brightness picks a glyph from a density ramp
+— sparse characters for bright areas, dense ones for dark:
 
     RAMP = " .`:-=+*cs#%@"   # bright (sparse) -> dark (dense)
     #        ^ leading space clears the background to nothing
@@ -54,6 +55,18 @@ def image_to_grid(img: Image.Image, cols: int, rows: int) -> list[str]:
         chars = [RAMP[n - (p * n // 255)] for p in row_pixels]
         lines.append("".join(chars))
     return lines
+
+
+def rows_for_aspect(img: Image.Image, cols: int) -> int:
+    """
+    Pick a row count that keeps the rendered SVG the same shape as the
+    source photo. A naive `resize((cols, rows))` to a fixed grid ignores
+    both the source's aspect ratio and the fact that a monospace character
+    cell (CELL_W x CELL_H) isn't square — skip either correction and the
+    portrait comes out visibly stretched wide.
+    """
+    src_w, src_h = img.size
+    return max(1, round(cols * (src_h / src_w) * (CELL_W / CELL_H)))
 
 
 def escape_xml(s: str) -> str:
@@ -128,17 +141,23 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("input", nargs="?", default="source-prepped.png")
     parser.add_argument("-o", "--output", default="avi-ascii.svg")
-    parser.add_argument("--cols", type=int, default=100)
-    parser.add_argument("--rows", type=int, default=53)
+    parser.add_argument("--cols", type=int, default=80)
+    parser.add_argument(
+        "--rows", type=int, default=None,
+        help="Defaults to auto-computed from the source image's aspect ratio "
+             "so the portrait isn't stretched. Only set this to override.",
+    )
     args = parser.parse_args()
 
     img = Image.open(args.input)
-    lines = image_to_grid(img, args.cols, args.rows)
-    svg = build_svg(lines, args.cols, args.rows)
+    rows = args.rows if args.rows is not None else rows_for_aspect(img, args.cols)
+
+    lines = image_to_grid(img, args.cols, rows)
+    svg = build_svg(lines, args.cols, rows)
 
     with open(args.output, "w") as f:
         f.write(svg)
-    print(f"Saved: {args.output} ({args.cols}x{args.rows} grid, {len(lines)} rows)")
+    print(f"Saved: {args.output} ({args.cols}x{rows} grid, {len(lines)} rows)")
 
 
 if __name__ == "__main__":

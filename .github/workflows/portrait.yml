@@ -1,0 +1,42 @@
+name: Refresh ASCII Portrait
+
+# Regenerates avi-ascii.svg straight from the current GitHub avatar —
+# change your profile picture, and the next run picks it up automatically.
+# No manual photo upload needed.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # weekly, Monday 06:00 UTC
+  workflow_dispatch: {}    # allows manually triggering from the Actions tab
+
+jobs:
+  refresh:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch current GitHub avatar
+        run: python scripts/fetch_avatar.py Berosin -o scripts/source-photo.png
+
+      - name: Prep photo (bg removal + contrast)
+        run: python scripts/prep_photo.py scripts/source-photo.png -o scripts/source-photo-prepped.png
+
+      - name: Regenerate ASCII SVG
+        run: python scripts/make_ascii_svg.py scripts/source-photo-prepped.png -o avi-ascii.svg --cols 80
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add avi-ascii.svg
+          git diff --staged --quiet || git commit -m "chore: refresh ASCII portrait from current avatar"
+          git push
