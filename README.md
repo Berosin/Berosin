@@ -1,5 +1,9 @@
 <div align="center">
-<img src="berosin.gif" alt="Berosin" width="500"/>
+<img src="berosin.gif" alt="Berosin" width="1000"/>
+</div>
+
+<div align="center">
+<img src="one-piece.gif" alt="One Piece" width="500"/>
 </div>
 
 <div align="center">
@@ -14,15 +18,16 @@
 
 <br/>
 
-<div align="center">
-
-<img src="avi-ascii.svg" width="460" alt="ASCII portrait, rendered as a terminal session" />
-
-<br/><br/>
-
-<img src="info-card.svg" width="460" alt="neofetch-style info card" />
-
-</div>
+<table align="center">
+<tr>
+<td align="center" width="50%">
+<img src="avi-ascii.svg" width="100%" alt="ASCII portrait, rendered as a terminal session" />
+</td>
+<td align="center" width="50%">
+<img src="info-card.svg" width="100%" alt="neofetch-style info card" />
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -45,8 +50,6 @@
 <sub>**AI & Web3**</sub>
 <br/>
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)![Foundry](https://img.shields.io/badge/Foundry-000000?style=for-the-badge&logo=ethereum&logoColor=white)
-<br/>
-<sub><i>+ RAG pipelines &amp; IBM Watsonx for applied AI &nbsp;·&nbsp; wagmi/viem for on-chain dev</i></sub>
 
 <sub>**Tools**</sub>
 <br/>
@@ -75,8 +78,6 @@
 
 <img src="https://raw.githubusercontent.com/Berosin/Berosin/output/github-contribution-grid-snake.svg" />
 
-<sub>Animated snake eating my contribution graph — powered by a GitHub Action (setup below ⬇️)</sub>
-
 </div>
 
 <br/>
@@ -87,15 +88,5 @@
 
 <a href="https://linkedin.com/in/berosin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://github.com/Berosin"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-
-<br/><br/>
-
-### 💭 Random dev wisdom, refreshed every visit
-
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,50:4A00E0,100:00C6FF&height=120&section=footer"/>
 
 </div>
